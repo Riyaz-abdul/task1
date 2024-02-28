@@ -1,0 +1,20 @@
+#excelUploadDialog--idInput-inner{
+    background-color: rgb(97, 13, 149);
+    
+}
+#excelUploadDialog--cancel{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+}
+#excelUploadDialog--cancel:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+#excelUploadDialog--cancel
+{border-radius: 50%;
+ border-color: white;
+}
+
+

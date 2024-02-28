@@ -1,0 +1,29 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+    xmlns:u="sap.ui.unified"
+    xmlns="sap.m">
+<Dialog id="_ID1Dialo"
+        title="title"
+        class="sapUiResponsiveContentPadding"
+        beforeOpen=".onBeforeOpen"
+        afterClose=".onAfterClose">
+
+
+        <content>
+         <Input id="idt" placeholder="id" editable = "false"/>
+        <Input id="nameInput" placeholder="Enter Name" />
+        <Input id="ageInput" placeholder="enter age" />
+
+        </content>
+        
+          
+            <Button id="cancel" core:require="{  handler: 'project1/ext/controller/Controller'}"
+                    text="cancel"
+                    press="handler.onCancel"
+                    enabled="true"  />
+             <Button id="modify" core:require="{   handler: 'project1/ext/controller/Controller'}"
+                    text="modify"
+                    press="handler.onModify"
+                    enabled="true"  />
+                  
+    </Dialog>
+</core:FragmentDefinition>

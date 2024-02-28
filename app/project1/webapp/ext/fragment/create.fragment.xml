@@ -1,0 +1,29 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+    xmlns:u="sap.ui.unified"
+    xmlns="sap.m">
+    <Dialog id="_IDDialog"
+        title="title"
+        class="sapUiResponsiveContentPadding"
+        beforeOpen=".onBeforeOpen"
+        afterClose=".onAfterClose">
+        <content>
+        <Input id="idInput" placeholder="Enter id" />
+        <Input id="nameInput" placeholder="Enter Name" />
+
+        </content>
+        <!-- <beginButton>
+            <Button id="ok1" core:require="{ handler: 'project1/ext/fragment/Edit'}"
+                text="OK"
+                press="handler.onClose"
+                enabled="true" />
+        </beginButton> -->
+        <!-- <endButton> -->
+            <Button id="cancel" core:require="{ handler: 'project1/ext/controller/Controller'}"
+                text="Cancel" enabled="true"
+                press="handler.onCancel" />
+			<Button id="save" core:require="{ handler: 'project1/ext/controller/Controller'}"
+			    text="Save" enabled="true"
+				press="handler.onSave" />        <!-- </endButton> -->
+    </Dialog>
+    
+</core:FragmentDefinition>
