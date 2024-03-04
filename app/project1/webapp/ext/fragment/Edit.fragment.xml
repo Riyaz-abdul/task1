@@ -1,5 +1,5 @@
 <core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
-	<Button core:require="{ handler: 'project1/ext/fragment/Edit'}" text="Sample Text" press="handler.onPress" />
+	<Button core:require="{ handler: 'project1/ext/fragment/Edit'}" text="edit" press="handler.onPress" />
     
 </core:FragmentDefinition>
 
